@@ -1,0 +1,104 @@
+*{ scroll-behavior: smooth;}
+body{background-color: #ffffbb;}
+header,footer{border:5px ridge pink;
+       border-radius: 80px;
+	height:160px;
+	background-color:#e27c8d;}
+.logo img{float:left;
+	width: 30%;}
+.nav-bar{height:100px;
+	float:right;}
+.nav-bar li{display:inline-block;
+	margin:20px;}
+.nav-bar ul{
+	float:right;
+	display: grid;
+       grid-template-columns:15% 15% 15% 15%;
+       grid-gap: 13%;
+	padding-right: 400px;}
+.nav-bar a{font-family:cursive;
+       font-size:30px ;
+	color:white;
+	text-decoration:none;}
+.nav-bar a:hover {color:darkgrey;}
+.s1{background: url(ima.jpg) no-repeat ;	
+	height: 550px;
+	padding-top: 100px;
+	}
+.s1 p{border:5px ridge #64add6c2;
+	width:50%;
+	border-radius: 30px;
+	margin: auto;
+	padding: 15px;
+	background-color:#3b10276e;
+	font-size: 25px;
+	text-align: center;
+	color: blanchedalmond;}
+h1 {border:5px ridge #c4c459;
+       border-radius: 80px;
+	height:60px;
+	background-color:#d4c1c4;
+	text-align: center;
+	padding-top: 30px;}
+h2{color: #1f3398n;}
+.d1s2 {margin-left:100px;
+	display: grid;
+       grid-template-columns:20% 20% 20%;
+	grid-gap:15%;}
+.s2 h2{text-align: center;}
+.d2s2{background-color: #d8eec6;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    font-size: 20px;
+    height: 350px;
+    text-align: justify;}
+.t td, .t th {padding: 12px 9%;
+    width: 15%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold; 
+    background-color: #d8eec6;
+	border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 stretch;}
+.s4{margin-bottom: 150px;}
+.ds4{margin-top: 100px;
+	margin-left: 400px;
+      	background:whitesmoke;
+	padding: 20px 50px;
+	width:500px;
+	filter: drop-shadow(-170px 100px 1px #decdfe);}
+.scroll_to_top {position: fixed;
+  		width: 25px;
+  		height: 25px;
+  		bottom: 50px;
+  		right: 30px;}
+.scroll_to_top img {width: 30px;}
+input[type=text],[type=radio]{border:none;
+		border-bottom:3px solid #74be38;
+		margin-bottom:25px;}
+textarea{border:none;
+	border-bottom:3px solid #74be38;
+	margin-bottom:25px;}
+input[type=submit]{width:120px;
+		height:50px;
+		background-color: #d8eec6;}	
+footer {padding-top:20px;
+       margin: 0;
+	color:white;
+	font-size:30px;}
+.foot{float:left;
+	width: 50%;
+	padding-left:40px;}
+.foot a{font-family:cursive;
+       font-size:30px ;
+	color:#cfc3ff;
+	text-decoration:none;}
+.copy{width: 30%;
+      padding-top: 50px;
+      float:right;}
+.done p {color: deeppink;
+	text-align: center;
+	font-size: 70px;
+	margin-top: 200px;}
